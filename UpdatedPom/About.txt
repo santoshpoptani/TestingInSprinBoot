@@ -1,0 +1,35 @@
+This File is About Updated Pom.xml
+Now in this new pom.xml we have adde many plugins to configure
+to run unit test and integeration from maven and build a jar file
+of applications
+
+plugins helps to run unit test and integeration test seperate of each other
+
+Some maven comands are
+
+If Maven is Installed in pc use 'mvn' or if maven wrapper is insatlled the use
+'./mvnw' in place of mvn
+
+Here are some basic Maven commands that are commonly used in a Maven-based project:
+
+1. `mvn clean`: Cleans the project by removing the generated build artifacts and temporary files.
+
+2. `mvn compile`: Compiles the source code of the project.
+
+3. `mvn test`: Runs the unit tests for the project.
+
+4. `mvn package`: Packages the compiled code into an artifact, such as a JAR or WAR file.
+
+5. `mvn install`: Installs the packaged artifact into the local Maven repository, making it available for other projects on the same machine.
+
+6. `mvn dependency:tree`: Displays the dependency tree of the project, showing the transitive dependencies and their versions.
+
+7. `mvn clean install`: Combines the clean and install phases, cleaning the project and then building and installing the artifacts.
+
+8. `mvn clean test`: Combines the clean and test phases, cleaning the project and then running the unit tests.
+
+9. `mvn clean package`: Combines the clean and package phases, cleaning the project and then packaging the code into an artifact.
+
+10. `mvn clean install -DskipTests`: Skips the execution of tests while building and installing the project.
+
+These are just a few examples of common Maven commands. Maven provides a wide range of plugins and configurations that allow for extensive customization and control over the build process. You can refer to the official Maven documentation for more details on Maven commands and their usage.
