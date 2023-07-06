@@ -1,0 +1,7 @@
+In this Project there are 2 implemetion JDBC abd JPA with business Layer
+JDBC implemetation is in DAO directory
+Jpa Implemetation is in repository directory
+
+
+In Service Directory The Business Layer calss is just an wrapeer class above student Service class
+It acts as a Businees layer in  n-Tire Architecture
